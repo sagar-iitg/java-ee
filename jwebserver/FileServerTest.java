@@ -4,6 +4,8 @@ import java.net.InetSocketAddress;
 import java.nio.file.Path;
 import com.sun.net.httpserver.SimpleFileServer;
 
+
+//minimum jdk18 required
 public class FileServerTest{
 
 
