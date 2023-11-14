@@ -14,9 +14,8 @@ public class FileServerTest{
     public static void main(String[] args)
     {
 
-         Path path=Path.of("D:\\git-personal\\java-ee\\Jwebserver\\test_file");
+        Path path=Path.of("D:\\git-personal\\java-ee\\Jwebserver\\test_file");
         HttpServer server=SimpleFileServer.createFileServer(new InetSocketAddress(8000), path, SimpleFileServer.OutputLevel.VERBOSE);
-
         server.start();
 
           
